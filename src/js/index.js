@@ -1,4 +1,5 @@
 import "../pages/index.css";
+import '../images/close.svg';
 import {Api} from './Api.js'
 import {FormValidator} from './FormValidator.js';
 import {CardList} from './CardList.js';
