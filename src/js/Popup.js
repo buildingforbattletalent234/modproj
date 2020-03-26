@@ -1,4 +1,4 @@
-class Popup {
+export class Popup {
     constructor(cardList,FormValidator,userInfo) {
         this.formValidator = FormValidator;
         this.cardList = cardList;
