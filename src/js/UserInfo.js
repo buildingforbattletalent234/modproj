@@ -1,5 +1,5 @@
 
-class UserInfo {
+export class UserInfo {
     constructor(api) {
         this.api = api;
         this.userNameElement = document.querySelector('.user-info__name');
@@ -16,8 +16,7 @@ class UserInfo {
     }
     updateUserInfo() {
         this.api.getName()        
-        .then((data) => {  
-            console.log(data);        
+        .then((data) => {                    
             this.userNameElement.textContent = data.name;
             this.userJobElement.textContent = data.about;
         })

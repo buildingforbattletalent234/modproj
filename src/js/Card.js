@@ -1,4 +1,4 @@
-class Card {
+ export class Card {
     constructor(name, link, id) {
         this.cardElement = this.create(name, link, id);
         this.likeIcon = this.cardElement.querySelector('.place-card__like-icon')
